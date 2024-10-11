@@ -2049,3 +2049,9 @@ body .theme-button-one:hover {background:#000f32; }
   padding: 0 20px;
   border:1px solid #f0f0f0;
 }
+
+.responsive-img {
+  max-width: 100%;  /* La imagen no excederá el ancho del contenedor */
+  height: auto;     /* Mantiene la proporción de la imagen */
+  display: block;   /* Elimina el espacio debajo de la imagen */
+}
